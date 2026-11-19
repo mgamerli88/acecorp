@@ -87,3 +87,24 @@ img.image-missing { visibility: hidden; }
   }
   .js-motion .reveal { opacity: 1; transform: none; }
 }
+
+/* ACE multimedia: compatible with GitHub Pages, all files in repository root */
+.ace-media-section {padding-top:90px;padding-bottom:95px;}
+.ace-media-grid {display:grid;grid-template-columns:1.05fr 1fr;gap:22px;margin-top:36px;align-items:stretch;}
+.ace-media-feature,.ace-video-panel,.ace-doc {background:#1b1b1e;border:1px solid #353538;overflow:hidden;}
+.ace-partida-img {display:block;width:100%;aspect-ratio:16/10;object-fit:cover;}
+.ace-media-copy,.ace-video-panel {padding:26px;}
+.ace-media-section h3 {color:#f7f7f7;font-size:clamp(22px,2.5vw,34px);line-height:1.15;margin:16px 0;}
+.ace-media-section p {color:#b8b8bc;line-height:1.65;}
+.ace-video-frame {position:relative;aspect-ratio:16/9;background:#080808;margin:22px 0;}
+.ace-video-frame iframe {position:absolute;inset:0;width:100%;height:100%;border:0;}
+.ace-video-panel .button {display:inline-flex;margin-top:6px;}
+.ace-documents {margin-top:45px;}
+.ace-doc-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:18px;}
+.ace-doc {padding:25px;display:flex;flex-direction:column;}
+.ace-doc h3 {font-size:23px;margin:0 0 12px;}
+.ace-doc p {flex:1;}
+.ace-doc a {color:#ff7925;font-weight:800;letter-spacing:.04em;text-decoration:none;margin-top:20px;}
+.ace-doc a:hover {text-decoration:underline;}
+@media(max-width:1000px){.ace-media-grid{grid-template-columns:1fr;}.ace-doc-grid{grid-template-columns:1fr;}}
+@media(max-width:600px){.ace-media-section{padding-top:55px;padding-bottom:55px;}.ace-media-copy,.ace-video-panel,.ace-doc{padding:18px;}}

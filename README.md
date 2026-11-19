@@ -1,5 +1,4 @@
-# ACE.Corp — version conclusiva 
-
+# ACE.Corp — Boceto web 3.0
 
 Web estática responsive para GitHub Pages.
 
@@ -39,3 +38,5 @@ Abre `index.html` con un navegador.
 Sube también la carpeta `assets` completa. La web necesita estos dos archivos, con estos nombres exactos (en minúsculas):
 - `assets/ace-logo.png`
 - `assets/repaper-logo.png`
+
+Los nombres distinguen mayúsculas y minúsculas; no los renombres.
